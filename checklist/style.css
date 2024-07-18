@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(26, 26, 26);
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(143, 141, 141);
+    text-align: center;
+}
+
+.bt-redondo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+
+.hidden {
+    display: none;
+}
+    
+dialog ::backdrop{color: rgb(0, 0, 0);}
+dialog {
+    background-color: rgb(84, 29, 136);
+    width: 300px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+
+input {
+    display: block;
+    padding: 10px;
+    margin-top: 30px;
+    width: 91%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.bt-close {
+    display: block;
+    padding: 10px;
+    margin-top: 80px;
+    width: 39%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+.bt-add {
+    display: block;
+    padding: 10px;
+    margin-top: -35.3px;
+    margin-left: 170px;
+    width: 39%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
